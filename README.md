@@ -30,7 +30,7 @@ Speak your desired numbers, and the calculation you want. If you wish to do more
 
 ## Built With 
 
-*Python
-*Google Speech-to-Text API 
+* Python
+* Google Speech-to-Text API 
 
 **Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/kg1510/)**
