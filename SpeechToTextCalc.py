@@ -1,21 +1,27 @@
 import speech_recognition as sr
 
 r = sr.Recognizer()
+def recognise():
+    with sr.Microphone() as source:
+        audio = r.listen(source,timeout=5)
+    try:
+        sp=r.recognize_google(audio)
+        s=int(sp)
+        print("You said ",s)
+        return s
+    except Exception as e:
+        print(e)
+        print("Didn't get you, can you say it again?")
+        return recognise()
 
 flag = 1
 while (flag == 1):
     with sr.Microphone() as source:
         print("Speak into mic first number: ")
-        num1 = r.listen(source, timeout=5)
-        num1s = r.recognize_google(num1)
-        print("You said: ", num1s)
-        num1q = int(num1s)
+        num1q = recognise()
 
         print("Speak into mic second number: ")
-        num2 = r.listen(source, timeout=5)
-        num2s = r.recognize_google(num2)
-        print("You said: ", num2s)
-        num2q = int(num2s)
+        num2q = recognise()
 
         print("Speak add '+', subtract '-', divide '/', multiply 'x'")
         fun = r.listen(source, timeout=5)
