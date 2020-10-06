@@ -1,6 +1,6 @@
 # Speech-To-Text Calculator using Google API
 
-A Python script to covert speech from device microphone to text to do basic calculations
+A Python script to covert speech from device microphone to text to perform basic calculations
 like a calculator.
 
 ## Getting Started
