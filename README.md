@@ -26,7 +26,7 @@ After this, you'll be ready to code!
 
 ## Input and Output
 
-Speak your desired numbers, and the calculation you want. If you wish to do more calculations you could do so by saying "yes" in the end or else say "no".
+Speak your desired numbers, and the calculation you want. If you wish to do more calculations you could do so by saying `yes` in the end or else say `no`.
 
 ## Built With 
 
