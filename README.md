@@ -19,7 +19,7 @@ For running this script you'll need:
 
 ## Installing
 
-If you have Python up and running all you need to do is download the external modules from the PiP Installer, just type:
+If you have Python up and running, all you need to do is download the external modules from the PiP Installer, just type:
 ```pip install SpeechRecognition```
 ```pip install PyAudio```
 After this, you'll be ready to code!
